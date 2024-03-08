@@ -42,7 +42,7 @@ const userSchema = new Schema(
 
 userSchema.post("save", handleSaveErrors);
 
-const User = model("users", userSchema);
+const User = model("user", userSchema);
 
 const signupSchema = Joi.object({
   email: Joi.string().pattern(emailRegExp).min(10).max(63).required(),

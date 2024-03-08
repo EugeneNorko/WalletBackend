@@ -66,7 +66,7 @@ const transactionSchema = new Schema(
 
 transactionSchema.post("save", handleSaveErrors);
 
-const Transaction = model("transactions", transactionSchema);
+const Transaction = model("transaction", transactionSchema);
 
 const addSchema = Joi.object({
   type: Joi.boolean().required(),
