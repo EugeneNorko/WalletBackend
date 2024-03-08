@@ -1,5 +1,5 @@
 {
-  "name": "walletbackendteamproject",
+  "name": "walletbackend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrysiazhnukSerhii/WalletBackendTeamProject.git"
+    "url": "git+https://github.com/EugeneNorko/WalletBackend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrysiazhnukSerhii/WalletBackendTeamProject/issues"
+    "url": "https://github.com/EugeneNorko/WalletBackend/issues"
   },
-  "homepage": "https://github.com/PrysiazhnukSerhii/WalletBackendTeamProject#readme",
+  "homepage": "https://github.com/EugeneNorko/WalletBackend#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "2.8.5",
